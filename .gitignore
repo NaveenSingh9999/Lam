@@ -1,0 +1,10 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Project artifacts
+artifacts/
+data/
+lag.egg-info/
+.pytest_cache/

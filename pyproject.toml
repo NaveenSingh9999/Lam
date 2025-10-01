@@ -1,0 +1,22 @@
+[project]
+name = "lag"
+version = "0.1.0"
+description = "Limitless Autonomous Guardian foundation model toolkit"
+authors = [{name = "Naveen aka Lamgerr"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.2.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.65.0",
+    "datasets>=2.20.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lag*"]
